@@ -34,14 +34,11 @@ TARGET_SCREEN_WIDTH := 1080
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-pe
+    $(LOCAL_PATH)/overlay-beast
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-
-PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -143,7 +140,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     libxml2 \
-    Snap
+    Snap2
 
 # CNE
 PRODUCT_PACKAGES += \
@@ -321,6 +318,10 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
+	
+# OTA
+PRODUCT_PACKAGES += \
+    Updates
 
 # Power
 PRODUCT_PACKAGES += \

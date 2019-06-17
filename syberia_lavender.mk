@@ -12,12 +12,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from lavender device
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
-# Inherit some common BeastROMs stuff.
+# Inherit some common Syberia stuff.
+$(call inherit-product, vendor/syberia/common.mk)
+
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/beast/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := beast_lavender
+PRODUCT_NAME := syberia_lavender
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
@@ -33,3 +34,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lavender"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+SYBERIA_BUILD_TYPE := OFFICIAL

@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "rashedsahaji/android_hardware_qcom_display",
+    "target_path": "hardware/qcom/display-caf/msm8998",
+    "branch": "lineage-16.0-caf-8998"
+  },
+   {
+    "repository": "LineageOS/android_hardware_qcom_media",
+    "target_path": "hardware/qcom/media-caf/msm8998",
+    "branch": "lineage-16.0-caf-8998"
+  },
+   {
+    "repository": "LineageOS/android_hardware_qcom_audio",
+    "target_path": "hardware/qcom/audio-caf/msm8998",
+    "branch": "lineage-16.0-caf-8998"
+  },
+   {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-16.0"
+  },
+   {
+    "repository": "BeastRoms-Devices/vendor_xiaomi_lavender",
+    "target_path": "vendor/xiaomi/lavender",
+    "branch": "pie-test2"
+  },
+   {
+    "repository": "BeastRoms-Devices/kernel_xiaomi_lavender",
+    "target_path": "kernel/xiaomi/lavender",
+    "branch": "pie-clang"
+  }
+]

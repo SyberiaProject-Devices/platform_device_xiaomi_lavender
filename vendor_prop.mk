@@ -71,10 +71,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
    vendor.audio_hal.period_multiplier=3 \
    vendor.audio.adm.buffering.ms=2
 
-#Density
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=409
-
 # Fling
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.min.fling_velocity=160 \

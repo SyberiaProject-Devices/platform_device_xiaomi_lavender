@@ -1,1 +1,2 @@
 add_lunch_combo syberia_lavender-userdebug
+export SKIP_ABI_CHECKS=true

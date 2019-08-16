@@ -262,4 +262,4 @@ ro.sf.lcd_density=440
 ro.location.osnlp.package=com.google.android.gms
 ro.location.osnlp.region.package=
 
-ro.syberia.version=v2.7
+ro.syberia.version=v2.8

@@ -410,6 +410,7 @@ PRODUCT_PACKAGES += \
     init.qcom.sensors.sh \
     init.target.rc \
     ueventd.qcom.rc \
+    init.xiaomi_parts.rc \
     fstab.qcom
 
 # RCS

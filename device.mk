@@ -465,7 +465,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
     android.hardware.thermal@1.0-service \
-    thermal.sdm660
+    thermal.msm8998
 
 # Touchscreen
 PRODUCT_PACKAGES += \
@@ -523,4 +523,6 @@ PRODUCT_PACKAGES += \
 # OTA
 PRODUCT_PACKAGES += \
     Updater
+
+
 

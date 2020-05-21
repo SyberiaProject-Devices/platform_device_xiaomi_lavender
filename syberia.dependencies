@@ -1,0 +1,29 @@
+[
+
+	{
+		"repository": "lavender-evergarden/packages_apps_GoogleCamera_lavender",
+		"target_path": "packages/apps/GoogleCamera",
+		"branch": "ten"
+	},
+	{
+		"repository": "LineageOS/android_external_json-c",
+		"target_path": "external/json-c",
+		"branch": "lineage-17.1"
+	},
+	{
+		"repository": "LineageOS/android_external_ant-wireless_antradio-library",
+		"target_path": "external/ant-wireless/antradio-library",
+		"branch": "lineage-17.1"
+	},
+	{
+		"repository": "ConquerOS/device_qcom_sepolicy-legacy-um",
+		"target_path": "device/qcom/sepolicy-legacy-um",
+		"branch": "ten"
+	},
+	{
+		"repository": "LineageOS/android_packages_resources_devicesettings",
+		"target_path": "packages/resources/devicesettings",
+		"branch": "lineage-17.1"
+	}
+
+]

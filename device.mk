@@ -519,3 +519,8 @@ PRODUCT_PACKAGES += \
 	libnl \
 	libaacwrapper \
 	libwfdaac
+
+# OTA
+PRODUCT_PACKAGES += \
+    Updater
+

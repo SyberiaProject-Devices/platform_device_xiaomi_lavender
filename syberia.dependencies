@@ -1,11 +1,6 @@
 [
 
 	{
-		"repository": "lavender-evergarden/packages_apps_GoogleCamera_lavender",
-		"target_path": "packages/apps/GoogleCamera",
-		"branch": "ten"
-	},
-	{
 		"repository": "LineageOS/android_external_json-c",
 		"target_path": "external/json-c",
 		"branch": "lineage-17.1"
@@ -24,6 +19,21 @@
 		"repository": "LineageOS/android_packages_resources_devicesettings",
 		"target_path": "packages/resources/devicesettings",
 		"branch": "lineage-17.1"
+	},
+    {
+		"repository": "z3nitsu/hardware_qcom_audio-caf_msm8998",
+		"target_path": "harwdare/qcom/audio-caf/msm8998",
+		"branch": "ten"
+	},
+    {
+		"repository": "z3nitsu/hardware_qcom_media-caf_msm8998",
+		"target_path": "harwdare/qcom/media-caf/msm8998",
+		"branch": "ten"
+	},
+    {
+		"repository": "z3nitsu/syberia_hardware_qcom_display-caf_msm8998",
+		"target_path": "harwdare/qcom/display-caf/msm8998",
+		"branch": "ten"
 	}
 
 ]
